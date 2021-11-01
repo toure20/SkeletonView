@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Juanpe Catalán" => "juanpecm@gmail.com" }
   s.social_media_url   = "https://twitter.com/JuanpeCatalan"
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "11.0"
   s.tvos.deployment_target = "9.0"
   s.swift_version = "5.0"
   s.source       = { :git => "https://github.com/Juanpe/SkeletonView.git", :tag => s.version.to_s }
